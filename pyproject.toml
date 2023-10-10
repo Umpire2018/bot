@@ -1,0 +1,26 @@
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "", email = ""},
+]
+
+dependencies = [
+    "nonebot2[fastapi,httpx]>=2.0.0",
+    "nonebot-adapter-telegram>=0.1.0b14",
+    "tortoise-orm[asyncmy]>=0.19.3",
+    "orjson>=3.9.2",
+    "web3>=6.5.0",
+    "nonebot-plugin-apscheduler>=0.3.0",
+    "plottable>=0.1.5",
+    "psutil>=5.9.5",
+    "nonebot-plugin-logpile>=0.1.0",
+    "tenacity>=8.2.2",
+    "aiosqlite>=0.17.0",
+    "arrow>=1.2.3",
+]
+
+requires-python = ">=3.8"
+license = {text = "MIT"}
